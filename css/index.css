@@ -1,0 +1,21 @@
+.container{
+    margin: 0 auto;
+    padding: 0 auto}
+.container .home{
+    background: #f8e6ce;
+    height: 460px;
+}
+.container #demo .carousel-inner .carousel-item img{
+    width: 992px;
+    height: 460px;
+}
+.container .home .homeList li a{
+    text-decoration: none;
+    width: 234px;
+    height: 42px;
+    color:#fff;
+}
+.row div a img{
+    width:316px;
+    height:170px;
+}
