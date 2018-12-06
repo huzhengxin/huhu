@@ -1,9 +1,13 @@
 .container{
     margin: 0 auto;
-    padding: 0 auto}
+    padding: 0 auto
+    width:1321px;
+}
 .container .home{
     background: #f8e6ce;
     height: 460px;
+    align-items: center;
+
 }
 .container #demo .carousel-inner .carousel-item img{
     width: 992px;
@@ -18,4 +22,28 @@
 .row div a img{
     width:316px;
     height:170px;
+}
+.container .firstFloor ul a{
+    color:#fff;
+    display: block;
+    margin-top: 10px;
+}
+.container .firstFloor{
+    width:1226px;
+}
+.container .firstFloor .row img {
+    padding-left:25px;
+}
+.container .firstFloor ul{
+    background: #5f5750;
+    width:234px;
+    height:170px;
+}
+.container .secondFloor .row a img{
+    width:160px;
+    height:160px;
+}
+.container .secondFloor .row div.col-3 {
+    width:234px;
+    height:340px;
 }
