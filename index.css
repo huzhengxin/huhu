@@ -1,0 +1,74 @@
+.container{
+    margin: 0 auto;
+    padding: 0 auto;
+    width:1321px;
+}
+.container .home{
+    background: #f8e6ce;
+    height: 460px;
+    align-items: center;
+
+}
+.container #demo .carousel-inner .carousel-item img{
+    width: 992px;
+    height: 460px;
+}
+.container .home .homeList li a{
+    text-decoration: none;
+    width: 234px;
+    height: 42px;
+    color:#fff;
+}
+.row div a img{
+    width:316px;
+    height:170px;
+}
+.container .firstFloor ul a{
+    color:#fff;
+    display: block;
+    margin-top: 10px;
+}
+.container .firstFloor{
+    width:1226px;
+}
+.container .firstFloor .row img {
+    padding-left:25px;
+}
+.container .firstFloor ul{
+    background: #5f5750;
+    width:234px;
+    height:170px;
+}
+.container .secondFloor div.col-3 img{
+    width: 160px;
+    height: 160px;
+    top:12px;
+}
+.container .secondFloor div.col-3 h3{
+    font-size: 14px;
+    color:#212121;
+    text-align:center;
+}
+.container .secondFloor div.col-3 p:first-child{
+    color:#b0b0b0;
+}
+.container .secondFloor div.col-3 p{
+    font-size: 12px;
+    text-align: center;
+    width: 234px;
+}
+.container .secondFloor div.col-3 p:last-child{
+    color:#ff6709;
+}
+.container .secondFloor  div.col-3{
+    float:left ;
+    background: #fafafa;
+    padding:0;
+    margin-right:8px;
+    width: 234px;
+    height: 340px;
+    text-align: center;
+}
+.container .secondFloor .row{
+    width: 1240px;
+}
