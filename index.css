@@ -1,3 +1,4 @@
+body{text-align: center;}
 .container{
     margin: 0 auto;
     padding: 0 auto;
@@ -85,3 +86,31 @@
     width:234px;
     height:614px;
     }
+.container .hList .homeItem .col-3 img{
+    width:150px;
+    height: 150px;
+}
+.container .hList .homeItem .col-3 h3 a{
+    text-decoration: none;
+    color:#333;
+    font-size:14px;
+    overflow: hidden;
+    text-align: center;
+}
+.container .hList .homeItem .col-3 p{
+    font-size: 12px;
+    overflow: hidden;
+    text-align: center;
+}
+.container .hList .homeItem .col-3 h3+p{
+    color:#b0b0b0;
+}
+.container .hList .homeItem .col-3 p:last-child{
+    color:#ff6700
+}
+.container .hList .homeItem .col-3{
+    width:234px;
+    height: 300px;
+    margin:0 0 14px 14px;
+    padding:0;
+}
