@@ -1,8 +1,11 @@
-body{text-align: center;}
+body{
+    margin: 0;
+    padding: 0;
+}
 .container{
     margin: 0 auto;
-    padding: 0 auto;
-    width:1321px;
+    padding: 0;
+    width:1226px;
 }
 .container .home{
     background: #f8e6ce;
@@ -11,7 +14,7 @@ body{text-align: center;}
 
 }
 .container #demo .carousel-inner .carousel-item img{
-    width: 992px;
+    width: 970px;
     height: 460px;
 }
 .container .home .homeList li a{
@@ -23,22 +26,42 @@ body{text-align: center;}
 .row div a img{
     width:316px;
     height:170px;
+    margin-left: 14px;
 }
 .container .firstFloor ul a{
-    color:#fff;
-    display: block;
-    margin-top: 10px;
+   position: absolute;
+   color:rgba(2555,255,255,0.7);
+   text-decoration: none;
+   font-size: 12px;
+   padding-top: 42px;
+   width: 58px;
+   height: 64px;
+}
+.container .firstFloor ul a:hover{
+    color: #fff;
 }
 .container .firstFloor{
+    margin-top: 14px;
+    margin-bottom: 26px;
     width:1226px;
 }
-.container .firstFloor .row img {
-    padding-left:25px;
+.container .firstFloor .row{
+    width: 992px;
 }
 .container .firstFloor ul{
+    list-style: none;
     background: #5f5750;
     width:234px;
     height:170px;
+    padding: 0;
+}
+.container .firstFloor ul li{
+    position: relative;
+    float: left;
+    width: 70px;
+    height: 82px;
+    padding-left: 20px;
+    left: 5px;
 }
 .container .secondFloor div.col-3 img{
     width: 160px;
@@ -65,7 +88,7 @@ body{text-align: center;}
     background: #fafafa;
     padding:0;
     margin-right:14px;
-    width: 234px;
+    width: 223px;
     height: 340px;
     text-align: center;
 }
@@ -80,6 +103,42 @@ body{text-align: center;}
     width: 234px;
     height: 340px;
     text-align: center;
+}
+.secondFloor .d-flex h2{
+    color:#333;
+    font-size: 22px;
+    line-height: 58px;
+}
+.secondFloor .tm{
+    width: 234px;
+    height: 340px;
+    margin-right: 14px;
+    background-color: #f1eded;
+    text-align: center;
+}
+.secondFloor .tm p:first-child{
+    color:#ef3a3b;
+    font-size:21px;
+    padding-top: 45px;
+}
+.secondFloor .tm .dis{
+    color: rgba(0,0,0,0.54);
+    font-size: 15px;
+}
+.secondFloor .tm .date{
+    width: 46px;
+    font-size: 24px;
+    color:#fff;
+    background-color: #605751;
+}
+.secondFloor .tm span{
+    height: 46px;
+    line-height: 46px;
+}
+.secondFloor .tm .fh{
+    width: 15px;
+    font-size: 28px;
+    color:#605751;
 }
 <!--家电层-->
 .container .hList firstImg img{
