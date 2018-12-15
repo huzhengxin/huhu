@@ -1,23 +1,29 @@
 *{margin: 0;padding: 0}
-.container{
-    color:#fff;
-    font-size: 12px;;
-    padding: 0;
-}
-.container .firstDiv{
+ .firstDiv{
+     position: relative;
     width:100%;
-    background:#000;
     height: 40px;
+    background:#000;
     line-height: 40px;
     margin-bottom: 10px;
 }
-.container .firstDiv ul li a{
-    color: #fff;
+  .leftNva{
+     margin-left: 55px;
+ }
+  .rightNva:first-child a{
+      padding-left: 800px !important;
+  }
+.firstDiv ul li a{
+    color: #b0b0b0;
     text-decoration: none;
+    font-size: 12px;;
     margin-left:5px;
     margin-right:5px;
 }
-.container .firstDiv ul li a b{
+.firstDiv ul li a:hover{
+    color:#fff;
+}
+ .firstDiv ul li a b{
     margin-left: 10px;
 }
 .container .nDiv a:first-child img{
@@ -46,4 +52,11 @@
 }
 .nDiv .nav li:first-child .nav-link:hover{
     display: block;
+}
+.nDiv ul:last-child input{
+    height: 50px;
+    width: 245px;
+}
+header.container{
+   width: 1226px;
 }
