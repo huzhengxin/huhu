@@ -7,17 +7,17 @@ body{
     padding: 0;
     width:1226px;
 }
-.container .home{
+ .home{
     background: #f8e6ce;
     height: 460px;
     align-items: center;
 
 }
-.container #demo .carousel-inner .carousel-item img{
+#demo .carousel-inner .carousel-item img{
     width: 970px;
     height: 460px;
 }
-.container .home .homeList li a{
+.home .homeList li a{
     text-decoration: none;
     width: 234px;
     height: 42px;
@@ -28,7 +28,7 @@ body{
     height:170px;
     margin-left: 14px;
 }
-.container .firstFloor ul a{
+.firstFloor ul a{
    position: absolute;
    color:rgba(2555,255,255,0.7);
    text-decoration: none;
@@ -37,10 +37,10 @@ body{
    width: 58px;
    height: 64px;
 }
-.container .firstFloor ul a:hover{
+ .firstFloor ul a:hover{
     color: #fff;
 }
-.container .firstFloor{
+.firstFloor{
     margin-top: 14px;
     margin-bottom: 26px;
     width:1226px;
@@ -48,14 +48,14 @@ body{
 .container .firstFloor .row{
     width: 992px;
 }
-.container .firstFloor ul{
+ .firstFloor ul{
     list-style: none;
     background: #5f5750;
     width:234px;
     height:170px;
     padding: 0;
 }
-.container .firstFloor ul li{
+.firstFloor ul li{
     position: relative;
     float: left;
     width: 70px;
@@ -63,46 +63,42 @@ body{
     padding-left: 20px;
     left: 5px;
 }
-.container .secondFloor div.col-3 img{
+ .secondFloor{
+    width: 1226px;
+}
+.secondFloor .row{
+    margin-left: 14px;
+ }
+ .secondFloor div.col-3 img{
     width: 160px;
     height: 160px;
     top:12px;
+    margin-left: 0;
 }
-.container .secondFloor div.col-3 h3{
+ .secondFloor div.col-3 h3{
     font-size: 14px;
     color:#212121;
     text-align:center;
 }
-.container .secondFloor div.col-3 p:first-child{
+.secondFloor div.col-3 p:first-child{
     color:#b0b0b0;
 }
-.container .secondFloor div.col-3 p{
+ .secondFloor div.col-3 p{
     font-size: 12px;
     text-align: center;
     width: 234px;
 }
-.container .secondFloor div.col-3 p:last-child{
+ .secondFloor div.col-3 p:last-child{
     color:#ff6709;
 }
-.container .secondFloor  div.col-3{
-    background: #fafafa;
-    padding:0;
-    margin-right:14px;
-    width: 223px;
-    height: 340px;
-    text-align: center;
-}
-.container .secondFloor .rowList{
-    width: 1240px;
-    border: 1px solid red
-}
-.container .secondFloor .rowList div.col-3{
+ .secondFloor  div.col-3{
     background: #fafafa;
     padding:0;
     margin-right:14px;
     width: 234px;
     height: 340px;
     text-align: center;
+    flex: none;
 }
 .secondFloor .d-flex h2{
     color:#333;
@@ -112,7 +108,6 @@ body{
 .secondFloor .tm{
     width: 234px;
     height: 340px;
-    margin-right: 14px;
     background-color: #f1eded;
     text-align: center;
 }
@@ -120,6 +115,9 @@ body{
     color:#ef3a3b;
     font-size:21px;
     padding-top: 45px;
+}
+.secondFloor .tm img{
+    margin: 25px 0 25px 0;
 }
 .secondFloor .tm .dis{
     color: rgba(0,0,0,0.54);
@@ -141,35 +139,70 @@ body{
     color:#605751;
 }
 <!--家电层-->
-.container .hList firstImg img{
+ .hList firstImg img{
     width:234px;
     height:614px;
     }
-.container .hList .homeItem .col-3 img{
+.hList firstImg img:hover{
+    transform:scale(1.5,1.5);
+}
+ .hList .homeItem .col-3 img{
     width:150px;
     height: 150px;
+    margin-left: 0;
 }
-.container .hList .homeItem .col-3 h3 a{
+ .hList .homeItem .col-3 h3 a{
     text-decoration: none;
     color:#333;
     font-size:14px;
-    overflow: hidden;
-    text-align: center;
+
 }
-.container .hList .homeItem .col-3 p{
+.hList .homeItem .col-3 p{
     font-size: 12px;
     overflow: hidden;
     text-align: center;
+    margin-bottom: 8px;
 }
-.container .hList .homeItem .col-3 h3+p{
+ .hList .homeItem .col-3 h3+p{
     color:#b0b0b0;
 }
-.container .hList .homeItem .col-3 p:last-child{
+ .hList .homeItem .col-3 p:last-child{
     color:#ff6700
 }
-.container .hList .homeItem .col-3{
-    width:234px;
+ .hList .homeItem .col-3{
+    width:234px ;
     height: 300px;
     margin:0 0 14px 14px;
     padding:0;
+    text-align: center;
+    background: #fff;
+    flex: none;
+}
+<!--商品层-->
+    .products{
+    width: 1662px;
+    height: 3500px;
+    background: #f00;
+    text-align: center;
+    }
+.hList h3{
+  font-size: 22px;
+  color:#333;
+  line-height: 58px;
+  margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+.hList ul a{
+    text-decoration: none;
+    color:#fff;
+    line-height: 58px;
+}
+.hList ul li{
+    margin-left: 30px;
+}
+.hList .row{
+    width: 992px;
 }
