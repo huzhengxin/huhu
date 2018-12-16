@@ -1,19 +1,7 @@
-body{
-    margin: 0;
-    padding: 0;
-}
-.my-header{
-    width: 100%;
-    height: 7rem;
-}
-.my-footer{
-    width: 100%;
-    height: 30rem;
-}
 .container{
     margin: 0 auto;
     padding: 0;
-    width:1226px;
+    width:100%;
     margin-left:60px;
 }
  .home{
@@ -147,7 +135,7 @@ body{
     font-size: 28px;
     color:#605751;
 }
-<!--家电层-->
+/*家电层*/
  .hList firstImg img{
     width:234px;
     height:614px;
@@ -187,12 +175,11 @@ body{
     background: #fff;
     flex: none;
 }
-<!--商品层-->
- .products{
+/*商品层*/
+ body>.products{
     width: 100%;
     height: 100%;
     background: #f00;
-    text-align: center;
  }
 .hList h3{
   font-size: 22px;
@@ -216,5 +203,36 @@ body{
     width: 992px;
 }
 .hList{
+    width: 1226px;
+}
+.hList .intell img{
+    width: 234px;
+    height: 300px;
+}
+/*视频*/
+.video .title h3{
+    font-size: 22px;
+    color:#333;
+    line-height: 58px;
+    margin: 0;
+    }
+.video .title a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 58px;
+    color: #334;
+}
+.video .col-3 h3{
+   margin: 10px 0;
+    color:#333;
+    font-size: 18px;
+    text-align: center;
+}
+.video .col-3 p{
+    color:#b0b0b0;
+    font-size: 14px;
+    text-align: center;
+}
+.video .row{
     width: 1226px;
 }
