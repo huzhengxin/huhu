@@ -72,11 +72,23 @@ body{
 .reg .forget{
     margin-left: 100px;
 }
-.other .otherLogin{
+.other{
+    position: relative;
+    top: 80px;
+    height: 1px;
+    border: 1px solid  #bbb;
+    width:348px;
+    left: 31px;
+}
+ .otherLogin{
+    text-align: center;
+    position: absolute;
     color: #bbb;
+    background-color: #fff;
     font-size: 14px;
-    line-height: 180px;
-    margin-left: 23px;
+    left:133px;
+    top:-15px;
+    padding: 5px;
 }
 #tab2 .over{
     position: relative;
@@ -132,4 +144,20 @@ footer .fonW ul{
     margin-top:30px;
     margin-left: 45%;
 }
-
+.other-login{
+    display: flex;
+    position: relative;
+    top: 55%;
+    left:9%;
+    cursor: pointer;
+}
+.other-login .qq{
+    width: 33.33%;
+    display: flex;
+}
+.qq span{
+    font-size: 14px;
+}
+.gg{
+    height:200px;
+}

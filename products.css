@@ -7,7 +7,7 @@
     line-height: 65px;
     box-shadow:0 5px 20px #b0b0b0;
 }
-.nav a,span{
+.nav a,.nav-s{
     text-decoration: none;
     color:#757575;
     font-size: 12px;
@@ -15,7 +15,7 @@
 .nav a:hover{
     color:#ff6700;
 }
-ul li{
+ ul li{
     margin-left:6px;
 }
 .nav h3{
@@ -25,3 +25,51 @@ ul li{
     line-height: 64px;
 }
 .navItem a{margin-left: 8px}
+
+/*商品详情信息*/
+.product{
+    display: flex;
+    flex-direction: column;
+}
+.pro-til{
+    font-size: 24px;
+    color: #212121;
+    font-weight: normal;
+}
+.pro-inf{
+    color: #b0b0b0;
+    margin-bottom: 0;
+    padding-top:8px;
+    font-size: 14px;
+}
+.product .pro-inf span{
+    color: rgb(255, 74, 0)
+}
+.price{
+    padding: 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.goods{
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.good-inf{
+    display: inline-block;
+    height: 24px;
+    width: 60px;
+    padding: 2px 0;
+    text-align: center;
+    background: #ff6700;
+    color: #fff;
+}
+.good span {
+    line-height: 24px;
+    font-size:14px;
+}
+.addr{
+    position: relative;
+    top: 35px;
+    border: 1px solid #e0e0e0;
+    height: 110px;
+    padding: 40px 30px;
+}
