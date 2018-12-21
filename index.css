@@ -135,6 +135,10 @@
     color:#605751;
 }
 /*家电层*/
+.products{
+    background-color: #fafafa;
+    margin-top: 20px;
+}
  .hList firstImg img{
     width:234px;
     height:614px;
@@ -171,7 +175,7 @@
     margin:0 0 14px 14px;
     padding:0;
     text-align: center;
-     background-color: #fafafa;
+     background-color: #fff;
     flex: none;
 }
 /*商品层*/

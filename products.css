@@ -168,3 +168,10 @@
     text-decoration:none;
     color: #fff;
 }
+.list{
+    background-color: #fafafa;
+}
+.list h3{
+    font-size: 22px;
+    font-weight: normal;
+}
