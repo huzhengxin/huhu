@@ -25,7 +25,6 @@
     border-top: 1px solid #e0e0e0;
     justify-content: center;
     align-items: center;
-    float: left;
 }
 .list-item:nth-child(5n){
     border-right:0;
@@ -46,4 +45,12 @@
     color:#ff6700;
     text-decoration: none;
 }
-
+.btn:before{
+    content: '';
+    display: table;
+}
+.btn:after{
+    content:"";
+    display:block;
+    clear:both;
+}
