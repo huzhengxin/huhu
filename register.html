@@ -5,9 +5,8 @@
   <title></title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
   <link rel="stylesheet" href="css/bootstrap.css"/>
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js">
-  </script><script src="js/popper.min.js"></script>
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/register.css">
 </head>
   <body>
@@ -15,10 +14,14 @@
     <img src="img/footer/logo-footer.png" alt="标志图">
     <h3 class="mt-3">小米账号注册</h3>
     <div class="message">
-      <p><span>用户名：</span><input type="text" name="uneme" class="uname  ml-3" placeholder="请输入用户名"><span class="message-erro"></span></p>
-      <p><span>登录密码：</span><input type="password" name="upwd" class="upwd" placeholder="请输入密码"><span class="message-erro"></span></p>
-      <p><span>邮箱：</span><input type="text" name="email" class="email ml-4" placeholder="请输入邮箱地址"><span class="message-erro"></span></p>
-      <p><span>手机号：</span><input type="text" name="num" class="ophone ml-2" placeholder="请输入您的手机号"><span class="message-erro"></span></p>
+      <p><span>用户名：</span><input type="text" name="uname" class="uname  ml-3" placeholder="请输入用户名"></p>
+      <span id="userName"></span>
+      <p><span>登录密码：</span><input type="password" name="upwd" class="upwd" placeholder="请输入密码"></p>
+      <span id="userUp"></span>
+      <p><span>邮箱：</span><input type="text" name="email" class="email ml-4" placeholder="请输入邮箱地址"></p>
+      <span id="userEmail"></span>
+      <p><span>手机号：</span><input type="text" name="tel" class="tel ml-2" placeholder="请输入您的手机号"></p>
+      <span id="userTel"></span>
     </div>
    <input type="button" class="btn mt-3" value="立即注册"><br>
     <div class="float-left">
@@ -47,4 +50,5 @@
     </p>
   </div>
 </footer>
+  <script src="js/register.js"></script>
 </html>

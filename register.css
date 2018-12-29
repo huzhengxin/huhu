@@ -58,3 +58,9 @@ footer .fonW ul{
 .fonW p{
     text-align: center;
 }
+
+ .message #userName,.message #userUp,.message #userEmail,.message #userTel{
+    font-size: 12px;
+    color:red;
+    line-height: 20px;
+}
