@@ -161,3 +161,9 @@ footer .fonW ul{
 .gg{
     height:200px;
 }
+.userLog, .userUp{
+    display: block;
+    font-size: 10px;
+    color: red;
+    margin-left: 35px;
+}

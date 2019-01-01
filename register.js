@@ -5,7 +5,7 @@ $(function(){
         var email=$(".email").val();
         var tel=$(".tel").val();
         $.ajax({
-        url:"http://127.0.0.1:3000/reg",
+        url:"http://127.0.0.1:3000/register/reg",
         type:"post",
         data:{uname,upwd,email,tel},
         dataType:"json",
@@ -40,7 +40,7 @@ $(function(){
         )
       })
       $(".email").blur(e=>{
-        var regEm=/\w+ @ [0-9A-Za-z-]+ (\.[0-9A-Za-z-]+)+/; 
+        var regEm=/^\w+@[0-9A-Za-z-]+(\.[0-9A-Za-z-]+)+$/;
         var email=$(".email").val();
         if(email==''){
             $("#userEmail").html("邮箱地址不能为空")
@@ -51,7 +51,7 @@ $(function(){
         )
       });
       $(".tel").blur(e=>{
-        var regT=/(\+86|0086)? \s* 1 [3-8] \d{9}/; 
+        var regT=/^(\+86|0086)?\s*1[3-8]\d{9}$/;
         var tel=$(".tel").val();
         if(tel==''){
             $("#userTel").html("手机号不能为空")
@@ -61,4 +61,9 @@ $(function(){
             $("#userTel").html("")
         )
       });
+    $(window).keyup(e=>{
+        if(e.keyCode==13){
+            $("#btn").click()
+        }
+    })
 })

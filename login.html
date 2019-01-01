@@ -5,9 +5,8 @@
   <title></title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
   <link rel="stylesheet" href="css/bootstrap.css"/>
-  <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js">
-  </script><script src="js/popper.min.js"></script>
+  </script><script src="js/jquery-1.11.3.js"></script>
   <link rel="stylesheet" href="css/login.css">
 </head>
   <header>
@@ -25,8 +24,10 @@
       </ul>
       <div class="tab-content">
         <div class="tab-pane active justify-content-center" id="tab1">
-          <input type="text" id="uname" name="user" placeholder="邮箱/手机号码/小米ID">
-          <input type="password" id="upwd" name="up" placeholder="密码">
+          <input type="text" id="un" name="user" placeholder="邮箱/手机号码/小米ID">
+          <span class="userLog"></span>
+          <input type="password" id="up" name="up" placeholder="密码">
+          <span class="userUp"></span>
           <input type="button" id="btn" value="登录">
           <div class="reg d-flex">
             <a href="#" class="phone">手机短信登录/注册</a>
@@ -91,4 +92,5 @@
     </p>
   </div>
 </footer>
+<script src="js/login.js"></script>
 </html>
