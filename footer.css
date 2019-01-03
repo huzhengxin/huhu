@@ -1,12 +1,15 @@
-.container .firstFloor .sveList a{
+ .firstFloor .sveList a{
     color: #757575;
     font-size: 16px;
     line-height: 25px;
     text-align: center;
     text-decoration: none;
 }
-.container .firstFloor .sveList li b{
+ .firstFloor .sveList li b{
     color: #757575;
+}
+.firstFloor .sveList a:hover{
+    color:#ff6700;
 }
 .container .row .col-2 h4{
     width:130px;

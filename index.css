@@ -191,12 +191,12 @@
     background-color: #fafafa;
     margin-top: 20px;
 }
- .hList firstImg img{
+ .hList .fmg img{
     width:234px;
     height:614px;
     }
-.hList firstImg img:hover{
-    transform:scale(1.5,1.5);
+.hList .fmg>a img:hover{
+    transform:scaleY(1.01);
 }
  .hList .homeItem .col-3 img{
     width:150px;
@@ -291,6 +291,9 @@
     text-align: center;
     background-color: #fff;
     flex: none;
+}
+.othList .leftImg img:hover{
+    transform: scaleY(1.01);
 }
 .othList p{
     overflow: hidden;
