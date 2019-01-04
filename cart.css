@@ -73,3 +73,65 @@ body{
     border: 1px solid #f25807 ;
     margin-left: 10px;
 }
+/*购物车*/
+.yunF>.count,.yunF>.price{
+    color:#f25807;
+}
+.cartTxt{
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+span{
+    font-size: 14px;
+    color:#333;
+}
+.count,.price{
+    color:#f25807;
+}
+.detail div{
+    color:#808080;
+    font-size: 14px;
+    border-top:1px solid #bbb;
+
+}
+.qq{
+    color:#808080;
+}
+.row{
+    height: 36px;
+    background-color: #ddd;
+    line-height: 36px;
+}
+.emp{height: 42px}
+.taSelect{
+    color:#333;
+}
+.taSelect:hover{cursor: pointer;}
+.del{
+    color:#808080;
+    margin-left: 5px;
+}
+.del:hover{color: #f25807}
+.clear{
+    color: #fff;
+    background: #ccc;
+    margin-left:  5px;
+}
+.total{
+    position: relative;
+    width: 133px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background: #f25807;
+    display: block;
+    float: right;
+    border-radius: 2px;
+    color: #fff;
+    right: -14px;
+}
+.total:hover{
+    text-decoration: none;
+    color: #fff
+}

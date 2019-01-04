@@ -12,8 +12,8 @@
     <title></title>
 </head>
 <body>
-<div class="emp">
     <div class="container ">
+        <!--页头-->
         <div class="header d-flex">
             <a href="javascript:"><img src="img/footer/logo-footer.png" alt=""></a>
             <div class="cart">
@@ -25,6 +25,7 @@
                 </ul>
             </div>
         </div>
+        <!--空购物车-->
         <div class="cartGoods">
             <h2>您的购物车还是空的</h2>
             <p>登录之后将显示您之前加入的商品</p>
@@ -33,11 +34,55 @@
                 <a href="detail.html" class="nowCart">马上去购物</a>
             </div>
         </div>
+        <!--购物车-->
+        <div class="cart">
+            <div class="d-flex justify-content-between">
+                <h5 class="cartTxt">购物车</h5>
+                <div class="yunF">
+                    <span>已选</span>
+                    <span class="count">0</span>
+                    <span>件商品</span>
+                    <span>合计(不含运费):</span>
+                    <span class="price">0.00元</span>
+                </div>
+            </div>
+            <div class="detail row">
+                <div class="col-3">
+                    <input type="checkbox">
+                    <span class="qq">全</span>
+                </div>
+                <div class="col-3">商品</div>
+                <div class="col-1">单价(元)</div>
+                <div class="col-1">数量</div>
+                <div class="col-1">金额</div>
+                <div class="col-1">操作</div>
+            </div>
+            <div class="emp"><img src="img/cart/loading.gif" alt=""></div>
+            <div class="row">
+                <div class="col-7">
+                    <input type="checkbox">
+                    <span class="taSelect">全选</span>
+                    <span class="del">删除</span>
+                    <span class="clear">清空失效商品</span>
+                </div>
+                <div class="col-3">
+                    <span>已选</span>
+                    <span class="count">0</span>
+                    <span>件商品</span>
+                    <span>合计(不含运费):</span>
+                    <span class="price">0.00元</span>
+                </div>
+                <div class="col-2">
+                    <a href="javascript:" class="total">去计算</a>
+                </div>
+            </div>
+        </div>
+
     </div>
-</div>
 </body>
-<footer>
+<!---<footer>
     <iframe src="footer.html" frameborder="0" class="my-footer" scrolling="no"></iframe>
-</footer>
+</footer>->
+
 <script src="js/cart.js"></script>
 </html>
