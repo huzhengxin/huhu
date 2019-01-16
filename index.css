@@ -222,7 +222,7 @@
     color: rgba(0,0,0,0.54);
     font-size: 15px;
 }
-.secondFloor .tm .date{
+.secondFloor .tm .hour,.minutes,.seconds{
     width: 46px;
     font-size: 24px;
     color:#fff;
