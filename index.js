@@ -48,4 +48,14 @@ $(function(){
             $(".products .othList>:last-child>:last-child").html(html3);
         }
     })
+    $(".homeList").on("mouseenter",".goodDeltail",function(){
+        var $top=$(this);
+        var $lis=$(".homeList>li");
+        var i=parseInt($lis.index($top));
+        $top.children(2).removeClass("out").css({'top':`${-42*i-12}px`})
+    })
+    $(".homeList").on("mouseleave",".goodDeltail",function(){
+        var $top=$(this);
+        $top.children(2).addClass("out")
+    })
 })

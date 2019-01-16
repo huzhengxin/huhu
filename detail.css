@@ -23,14 +23,12 @@
     height: 136px;
     border-right: 1px solid #e0e0e0;
     border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
     justify-content: center;
     align-items: center;
 }
 .list-item:nth-child(5n){
     border-right:0;
-}
-.list-item:nth-child(12) ~ li{
-    border-bottom:1px solid #e0e0e0 ;
 }
 .list-img img{
     width: 70px;
