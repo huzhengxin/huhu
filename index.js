@@ -5,6 +5,7 @@ $(function(){
         dataType:"json",
         success:function(res){
            //console.log(res)
+            //主页商品加载
           var pro=res;
           var html="";
           for(var i=0;i<4;i++){
@@ -48,6 +49,7 @@ $(function(){
             $(".products .othList>:last-child>:last-child").html(html3);
         }
     })
+    //商品详情列表
     $(".homeList").on("mouseenter",".goodDeltail",function(){
         var $top=$(this);
         var $lis=$(".homeList>li");
@@ -58,4 +60,29 @@ $(function(){
         var $top=$(this);
         $top.children(2).addClass("out")
     })
+    //倒计时
+    setInterval(function () {
+        var date = new Date;
+        // console.log(date.getHours())
+        var nowHour = parseInt(date.getHours())
+        // console.log(nowHour)
+        var targetTime = nowHour +1
+        // console.log(targetTime)
+        $(".time").html(`${targetTime}:00场`)
+        var nowMinutes = date.getMinutes()
+        var minutes = 60-nowMinutes-1
+        // console.log(60-nowMinutes-1)
+        if(minutes<10){
+          $(".minutes").html(`0${minutes}`)
+        }else{
+          $(".minutes").html(`${minutes}`)
+        }
+        var nowSeconds = date.getSeconds()
+        var seconds = 60-nowSeconds-1
+        if(seconds<10){
+          $(".seconds").html(`0${seconds}`)
+        }else{
+          $(".seconds").html(`${seconds}`)
+        }
+      },1000);
 })
