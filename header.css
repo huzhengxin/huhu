@@ -34,18 +34,18 @@
     width:55px;
     height:55px;
     position: relative;
-    left:-14px;
 }
 .gift{
     width: 125px;
     height: 55px;
+    margin-left: 18px
 }
 .nDiv .nav{
     font-size: 16px;
     height: 55px;
     line-height: 55px;
 }
-.nDiv .nav li span{
+.nav-link{
     color:#333;
 }
  .nDiv .nav a{
@@ -59,16 +59,21 @@
     position: relative;
     z-index:10;
 }
+.nav-link:hover{
+    color: #f00;
+}
 /*导航产品明细列表*/
 .nav-detail{
     border-top: 1px solid #ddd;
     display: flex;
-    width: 980px;
-    height: 225px;
+    width: 1240px;
+    height: 260px;
     white-space: wrap;
     position: absolute !important;
     z-index: 50;
-    top:65px;
+    top:62px;
+    left: -198px;
+    background-color: #fff
 }
 .content,.tet{
     display: flex;
@@ -85,7 +90,7 @@
     height: 30px;
     line-height: 30px;
     text-align: center;
-    left:55px;
+    left:62px;
 }
 .price{
     color: #f00 !important;
@@ -104,14 +109,16 @@
 }
 .content a img{
     height: 105px;
-    width:150px;
+    width:165px;
     border-right: 1px solid #ddd;
     margin-top: 20px;
 }
 .content a{
     padding: 0 !important;
 }
-
+.in{
+    display: none;
+}
 
 .nDiv ul:last-child input{
     position: absolute;

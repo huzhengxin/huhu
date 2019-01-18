@@ -1,5 +1,5 @@
 /*导航条*/
-.nav{
+.nav-Pro{
     width: 100%;
     margin: 30px auto;
     border: 1px solid #b0b0b0;
@@ -7,25 +7,29 @@
     line-height: 65px;
     box-shadow:0 5px 20px #b0b0b0;
 }
-.nav a,.nav-s{
+.nav-Pro,.nav-s{
     text-decoration: none;
     color:#757575;
     font-size: 12px;
 }
-.nav a:hover{
+.nav-Pro a:hover{
     color:#ff6700;
 }
  ul li{
     margin-left:6px;
 }
-.nav h3{
+.nav-Pro h3{
     color:#212121;
     font-size: 18px;
     margin-right:6px;
     line-height: 64px;
 }
-.navItem a{margin-left: 8px}
-
+.navItem a{
+    margin-left: 8px;
+}
+.nav-Pro a{
+   color: #616161; 
+}
 /*商品详情信息*/
 .product{
     display: flex;
