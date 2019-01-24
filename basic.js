@@ -6,7 +6,7 @@ $(function(){
     var i=parseInt(lis.index($li))
     //console.log(i)
     $li.children(2).removeClass("in")
-                    .css({'left':`${-61*i-198}px`})
+                    .css({'left':`${-47*i-202}px`})
   })
   $(".nav").on("mouseleave",".nav-item",function(){
     
